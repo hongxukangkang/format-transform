@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="transformIbvID" type="id"/>
+    <item name="srcOpenFolderETID" type="id"/>
+    <item name="srcOpenFolderIBVID" type="id"/>
+    <item name="srcOpenFolderContainerLVID" type="id"/>
+    <item name="dstOpenFolderETID" type="id"/>
+    <item name="dstOpenFolderIBVID" type="id"/>
+    <item name="dstOpenFolderContainerLVID" type="id"/>
+
+    <item name="srcAudioOpenFolderETID" type="id"/>
+    <item name="srcAudioOpenFolderIBVID" type="id"/>
+    <item name="srcAudioOpenFolderContainerLVID" type="id"/>
+    <item name="dstAudioOpenFolderETID" type="id"/>
+    <item name="dstAudioOpenFolderIBVID" type="id"/>
+    <item name="dstAudioOpenFolderContainerLVID" type="id"/>
+
+    <item name="srcVideoOpenFolderETID" type="id"/>
+    <item name="srcVideoOpenFolderIBVID" type="id"/>
+    <item name="srcVideoOpenFolderContainerLVID" type="id"/>
+    <item name="dstVideoOpenFolderETID" type="id"/>
+    <item name="dstVideoOpenFolderIBVID" type="id"/>
+    <item name="dstVideoOpenFolderContainerLVID" type="id"/>
+
+    <item name="edtFeedbackID" type="id"/>
+
+    <item name="rbvSettingRed" type="id"/>
+    <item name="rbvSettingBlue" type="id"/>
+    <item name="rbvSettingGrey" type="id"/>
+
+    <item name="rbvToolSettingRed" type="id"/>
+    <item name="rbvToolSettingBlue" type="id"/>
+    <item name="rbvToolSettingGrey" type="id"/>
+
+    <item name="rbvSettingUpdateNo" type="id"/>
+    <item name="rbvSettingUpdateYes" type="id"/>
+
+    <item name="rbvSettingPushNo" type="id"/>
+    <item name="rbvSettingPushYes" type="id"/>
+
+    <item name="rbvDrawerSettingRed" type="id"/>
+    <item name="rbvDrawerSettingBlue" type="id"/>
+    <item name="rbvDrawerSettingGrey" type="id"/>
+
+
+</resources>

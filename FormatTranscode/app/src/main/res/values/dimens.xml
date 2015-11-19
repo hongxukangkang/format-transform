@@ -1,0 +1,37 @@
+<resources>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+
+    <dimen name="fab_elevation_lollipop">4dp</dimen>
+
+    <dimen name="src_folder_width">45.0dp</dimen>
+    <dimen name="src_folder_height">45.0dp</dimen>
+    <dimen name="folder_container_height">55.0dp</dimen>
+
+    <dimen name="feedback_container_height">155.0dp</dimen>
+    <dimen name="feedback_edt_marginTop">15.0dp</dimen>
+    <dimen name="feedback_edt_marginLeftRight">10.0dp</dimen>
+
+    <dimen name="setting_background_marginTop">15.0dp</dimen>
+    <dimen name="setting_background_marginLeftRight">10.0dp</dimen>
+
+    <dimen name="folder_container_marginLefRight">8.0dp</dimen>
+
+    <dimen name="folderContainerMarginTop">15.0dp</dimen>
+    <dimen name="audioFolderContainerMarginTop">15.0dp</dimen>
+
+    <dimen name="open_folder_marginLeft">10.0dp</dimen>
+
+    <dimen name="setting_color_height">55.0dp</dimen>
+    <dimen name="setting_color_marginLeft">7.0dp</dimen>
+    <dimen name="setting_color_width">135.0dp</dimen>
+    <dimen name="setting_radio_button_width">65.0dp</dimen>
+
+    <dimen name="about_marginTop">15.0dp</dimen>
+
+    <dimen name="txt_transform_size">20.0sp</dimen>
+    <dimen name="ibv_transform_height">55.0dp</dimen>
+
+</resources>

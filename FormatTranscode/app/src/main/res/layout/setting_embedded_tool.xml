@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <!--@dimen/setting_color_height-->
+
+    <LinearLayout
+        android:id="@+id/update_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/audioFolderContainerMarginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/setting_color_width"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_self_update" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@id/rbvSettingUpdateYes"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/setting_self_update_yes" />
+
+            <RadioButton
+                android:id="@id/rbvSettingUpdateNo"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:text="@string/setting_self_update_no" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/push_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_container"
+        android:layout_marginTop="@dimen/audioFolderContainerMarginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/setting_color_width"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_accept_push" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@id/rbvSettingPushYes"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/setting_accept_yes" />
+
+            <RadioButton
+                android:id="@id/rbvSettingPushNo"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:text="@string/setting_accept_no" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/back_setting_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/push_container"
+        android:layout_marginTop="@dimen/audioFolderContainerMarginTop"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/setting_color_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/background_color" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@id/rbvSettingRed"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_color_red" />
+
+            <RadioButton
+                android:id="@id/rbvSettingBlue"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:text="@string/setting_color_blue" />
+
+            <RadioButton
+                android:id="@id/rbvSettingGrey"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:checked="true"
+                android:text="@string/setting_color_grey" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/back_tool_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_setting_container"
+        android:layout_marginTop="@dimen/audioFolderContainerMarginTop"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/setting_color_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/tool_background_color" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@id/rbvToolSettingRed"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_color_red" />
+
+            <RadioButton
+                android:id="@id/rbvToolSettingBlue"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:text="@string/setting_color_blue" />
+
+            <RadioButton
+                android:id="@id/rbvToolSettingGrey"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:checked="true"
+                android:text="@string/setting_color_grey" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drawer_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_tool_container"
+        android:layout_marginTop="@dimen/audioFolderContainerMarginTop"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/setting_color_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/drawer_background_color" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@id/rbvDrawerSettingRed"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/setting_color_red" />
+
+            <RadioButton
+                android:id="@id/rbvDrawerSettingBlue"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:text="@string/setting_color_blue" />
+
+            <RadioButton
+                android:id="@id/rbvDrawerSettingGrey"
+                android:layout_width="@dimen/setting_radio_button_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setting_color_marginLeft"
+                android:layout_marginStart="@dimen/setting_color_marginLeft"
+                android:checked="true"
+                android:text="@string/setting_color_grey" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exit_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drawer_container"
+        android:layout_marginTop="@dimen/audioFolderContainerMarginTop">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_exit_system" />
+    </LinearLayout>
+
+</RelativeLayout>

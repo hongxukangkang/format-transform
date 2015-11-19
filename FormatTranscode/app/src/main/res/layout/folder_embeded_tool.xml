@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@id/srcOpenFolderContainerLVID"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/folder_container_height"
+        android:layout_marginEnd="@dimen/folder_container_marginLefRight"
+        android:layout_marginLeft="@dimen/folder_container_marginLefRight"
+        android:layout_marginRight="@dimen/folder_container_marginLefRight"
+        android:layout_marginStart="@dimen/folder_container_marginLefRight"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@id/srcOpenFolderETID"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/tool_open_src_file" />
+
+        <ImageButton
+            android:id="@id/srcOpenFolderIBVID"
+            android:layout_width="@dimen/src_folder_width"
+            android:layout_height="@dimen/src_folder_height"
+            android:layout_marginLeft="@dimen/open_folder_marginLeft"
+            android:layout_marginStart="@dimen/open_folder_marginLeft"
+            android:background="@drawable/format_folder_selector" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/dstOpenFolderIBVID"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/folder_container_height"
+        android:layout_below="@id/srcOpenFolderContainerLVID"
+        android:layout_marginEnd="@dimen/folder_container_marginLefRight"
+        android:layout_marginLeft="@dimen/folder_container_marginLefRight"
+        android:layout_marginRight="@dimen/folder_container_marginLefRight"
+        android:layout_marginStart="@dimen/folder_container_marginLefRight"
+        android:layout_marginTop="@dimen/folderContainerMarginTop"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@id/dstOpenFolderETID"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/tool_open_src_file" />
+
+        <ImageButton
+            android:id="@id/dstOpenFolderIBVID"
+            android:layout_width="@dimen/src_folder_width"
+            android:layout_height="@dimen/src_folder_height"
+            android:layout_marginLeft="@dimen/open_folder_marginLeft"
+            android:layout_marginStart="@dimen/open_folder_marginLeft"
+            android:background="@drawable/format_folder_selector" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/folder_container_height"
+        android:layout_below="@id/dstOpenFolderIBVID"
+        android:layout_marginEnd="@dimen/folder_container_marginLefRight"
+        android:layout_marginLeft="@dimen/folder_container_marginLefRight"
+        android:layout_marginRight="@dimen/folder_container_marginLefRight"
+        android:layout_marginStart="@dimen/folder_container_marginLefRight"
+        android:layout_marginTop="@dimen/folderContainerMarginTop"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@id/transformIbvID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ibv_transform_height"
+            android:layout_gravity="center"
+            android:background="@drawable/ibv_transform_selector"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/txt_transform_size"
+            android:text="@string/format_transform_start" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

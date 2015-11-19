@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">打开文件</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_open_file_demo">OpenFileDemo</string>
+
+    <string name="app_name">爱换</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <string name="format_share">分享爱转</string>
+    <string name="format_about">关于爱转</string>
+    <string name="format_setting">UI设置</string>
+    <string name="format_feedback">反馈给他</string>
+    <string name="format_audio_transform">音频转转</string>
+    <string name="format_video_transform">视频转转</string>
+
+    <string name="tool_open_src_file">请输入您要转换的文件地址及名称</string>
+    <string name="tool_open_dst_file">请输入您要保存的文件地址及名称</string>
+
+    <string name="feedback_to_email">发送过去</string>
+    <string name="format_transform_start">立马转</string>
+
+    <string name="drawer_background_color">抽屉菜单颜色设置:</string>
+    <string name="tool_background_color">工具条颜色设置:</string>
+    <string name="background_color">背景颜色设置:</string>
+    <string name="setting_color_red">红色</string>
+    <string name="setting_color_blue">蓝色</string>
+    <string name="setting_color_grey">灰色</string>
+    <string name="setting_self_update">自动更新</string>
+    <string name="setting_self_update_no">否决</string>
+    <string name="setting_self_update_yes">允许</string>
+    <string name="setting_exit_system">退出系统</string>
+    <string name="setting_accept_push">接受推送</string>
+    <string name="setting_accept_yes">接受</string>
+    <string name="setting_accept_no">不接</string>
+
+    <string name="src_file_path_not_null">源文件路径不可以为空</string>
+    <string name="dst_file_path_not_null">目标文件路径不可以为空</string>
+    <string name="src_dst_file_not_same">源路径不可与目标路径一致</string>
+    <string name="src_file_path_not_exist">源文件不存在，请检查路径</string>
+    <string name="dst_file_path_not_exist">目标路径文件不存在，请检查路径</string>
+    <string name="dst_file_creat_exception">目标文件创建异常，请稍后再试&#8230;</string>
+
+    <string name="parameter_setting_exception">软件运行异常，请稍后重试</string>
+    <string name="video_tranform_exception">视频文件转换异常，请稍后重试</string>
+    <string name="video_tranform_success">视频文件转换完毕，请预览&#8230;</string>
+
+    <string name="show_indicator_dialog">正在进行格式转换，请稍等&#8230;</string>
+
+    <string name="about_version">本产品仅限于工具类使用，权属个人兴趣开发，当前版本号为:0.1.1,若有疑问可发送邮件至zhaokangk@sina.com</string>
+</resources>

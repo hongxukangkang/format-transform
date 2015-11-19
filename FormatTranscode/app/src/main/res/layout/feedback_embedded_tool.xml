@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@id/edtFeedbackID"
+        android:layout_marginTop="@dimen/feedback_edt_marginTop"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/feedback_edt_marginLeftRight"
+        android:layout_marginStart="@dimen/feedback_edt_marginLeftRight"
+        android:layout_marginRight="@dimen/feedback_edt_marginLeftRight"
+        android:layout_marginEnd="@dimen/feedback_edt_marginLeftRight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/feedback_container_height"
+        /><!--android:textCursorDrawable="@drawable/edit_feedback_cursor_shape"-->
+
+    <Button
+        android:layout_marginTop="@dimen/feedback_edt_marginTop"
+        android:layout_marginLeft="@dimen/feedback_edt_marginLeftRight"
+        android:layout_marginStart="@dimen/feedback_edt_marginLeftRight"
+        android:layout_marginRight="@dimen/feedback_edt_marginLeftRight"
+        android:layout_marginEnd="@dimen/feedback_edt_marginLeftRight"
+        android:layout_below="@id/edtFeedbackID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback_to_email"/>
+</RelativeLayout>
